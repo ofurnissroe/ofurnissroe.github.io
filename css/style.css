@@ -1,0 +1,72 @@
+body {
+	background-image: url(../images/bg4.jpg);
+	background-repeat: n-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+
+	background-color: white;
+	background:rgba(255,255,255,0.7);
+	width: 600px;
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 20px;
+	border: 15px solid black;
+	box-shadow:10px 10px 10px 10px black;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: bolder;
+
+}
+
+h2{
+	text-align: center;
+	text-transform uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+
+}
+
+h3:hover {
+			color: #666666;
+			text-decoration: underline;
+			cursor: pointer;
+}
+img {
+	width: 200px;
+	margin: 0 auto;
+	display: block; /* comment:images have a display value where they are seen as text, cant put automatic margins on them so this tells them to display it like a box so automatic can do it */
+	border: 15px solid white;
+	border-radius: 50% 0 50% 0;
+
+}
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: lower-alpha;
+	padding-left:0;
+}
+
+.pickle {
+		font-weight: bolder;
+
+}
+a {
+	color: #cc0599;
+	text-decoration: none;
+	font-weight: bolder;
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	transform: rotateZ(190deg);
+	display: inline-block; 
+}
+
